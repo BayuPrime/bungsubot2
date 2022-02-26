@@ -30,7 +30,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node index"
+    "test": "node index",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,7 @@
   "keywords": [
     "k"
   ],
-  "author": "Abdul Muttaqin",
+  "author": "Bayu Prime",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BayuPrime/bungsubot2/issues"
