@@ -15,7 +15,7 @@ const info = require("./lib/info.js");
 /////////////////
 const BotName = 'BayuPrime'; 
 const instagram = 'https://instagram.com/bayu.yudha25'; 
-const telegram = '-'; 
+const telegram = 'https://t.me/B4_y0'; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
 const youtube = '-';
 //const grupch1 = 'belum ada grup'; 
