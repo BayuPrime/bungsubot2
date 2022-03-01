@@ -640,8 +640,9 @@ if (text.includes("!alay")){
 		{ let hasil = `${res.data.text}`
 		conn.sendMessage(id, hasil, MessageType.text)
 	})
-}
-	      	      
+	
+	
+}break	      	      
 			case 'tagall':
 			if (isLimit(sender)) return
             await limitAdd(sender)
@@ -658,6 +659,8 @@ if (text.includes("!alay")){
 			}
 			mentions(teks, members_id, true)			 
 			break
+	      	      
+			
 
 
 
@@ -667,7 +670,7 @@ if (text.includes("!alay")){
 
 
 
-//AKHIRNYAAAAAAAA
+//A
 
 
 })
