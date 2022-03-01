@@ -641,7 +641,23 @@ if (text.includes("!alay")){
 		conn.sendMessage(id, hasil, MessageType.text)
 	})
 }
-
+	      	      
+			case 'tagall':
+			if (isLimit(sender)) return
+            await limitAdd(sender)
+            if (isBanned) return reply("MAAF ANDA TELAH DI BANNED") 			
+		    if (!isGroup) return reply(only.group)
+			if (!isGroupAdmins) return reply(only.admin)
+			if (!isBotGroupAdmins) return reply(only.botadmin)					 
+			members_id = []
+	    	teks = (args.length > 1) ? body.slice(8).trim() : ''
+			teks += '\n\n'
+			for (let mem of groupMembers) {
+			teks += `${tz} @${mem.jid.split('@')[0]}\n`
+			members_id.push(mem.jid)
+			}
+			mentions(teks, members_id, true)			 
+			break
 
 
 
